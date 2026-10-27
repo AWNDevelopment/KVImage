@@ -1,0 +1,63 @@
+:root {
+    --rgb-color: 61, 114, 245;
+
+    --background-solid: #08090d;
+    --background-radial: radial-gradient(163.54% 144.88% at 185.97% 50%, rgba(61, 114, 245, 0.20) 0%, rgba(61, 114, 245, 0.00) 100%), #08090d;
+
+    --main-5: #eef3fe;
+    --main-50: #eef3fe;
+    --main-100: #d6e2fd;
+    --main-200: #adc5fb;
+    --main-300: #84a8f9;
+    --main-400: #5b8bf7;
+    --main-500: #3d72f5;
+    --main-600: #2257d6;
+    --main-700: #1a43a6;
+    --main-800: #132f76;
+    --main-900: #0c1c47;
+    --main-950: #081330;
+
+    --interaction-text-disabled: #FFFFFF;
+    --interaction-text-active: #08090d;
+    --interaction-background: #3d72f5;
+    --interaction-background-disabled: #08090d;
+
+    --main-opacity-50: rgba(61, 114, 245, 0.05);
+    --main-opacity-100: rgba(61, 114, 245, 0.1);
+    --main-opacity-200: rgba(61, 114, 245, 0.2);
+    --main-opacity-300: rgba(61, 114, 245, 0.3);
+    --main-opacity-400: rgba(61, 114, 245, 0.4);
+    --main-opacity-500: rgba(61, 114, 245, 0.5);
+    --main-opacity-600: rgba(61, 114, 245, 0.6);
+    --main-opacity-700: rgba(61, 114, 245, 0.7);
+    --main-opacity-800: rgba(61, 114, 245, 0.8);
+    --main-opacity-900: rgba(61, 114, 245, 0.9);
+
+    --white-opacity-20: rgba(255, 255, 255, 0.02);
+    --white-opacity-50: rgba(255, 255, 255, 0.05);
+    --white-opacity-100: rgba(255, 255, 255, 0.1);
+    --white-opacity-200: rgba(255, 255, 255, 0.2);
+    --white-opacity-300: rgba(255, 255, 255, 0.3);
+    --white-opacity-400: rgba(255, 255, 255, 0.4);
+    --white-opacity-500: rgba(255, 255, 255, 0.5);
+    --white-opacity-600: rgba(255, 255, 255, 0.6);
+    --white-opacity-700: rgba(255, 255, 255, 0.7);
+    --white-opacity-800: rgba(255, 255, 255, 0.8);
+    --white-opacity-900: rgba(255, 255, 255, 1);
+
+    --grey-5: #FFFFFF;
+    --grey-100: #EAEDF1;
+    --grey-200: #CBD3DC;
+    --grey-300: #ADB9C8;
+    --grey-400: #8E9FB3;
+    --grey-500: #70869F;
+    --grey-600: #586C83;
+    --grey-700: #445365;
+    --grey-800: #2F3A46;
+    --grey-900: #1A2027;
+
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+}

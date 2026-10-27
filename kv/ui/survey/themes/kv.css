@@ -1,0 +1,110 @@
+:root {
+    --rgb-color: 61, 114, 245;
+
+    --background-solid: #070a1a;
+    --background-radial: #070a1a;
+
+    --main-5: #eef3fe;
+    --main-50: #eef3fe;
+    --main-100: #d6e2fd;
+    --main-200: #adc5fb;
+    --main-300: #4d86d1;
+    --main-400: #2a6fc9;
+    --main-500: #1e61b8;
+    --main-600: #1a549f;
+    --main-700: #1a43a6;
+    --main-800: #18285a;
+    --main-900: #142250;
+    --main-950: #101a3b;
+
+    --interaction-text-disabled: #FFFFFF;
+    --interaction-text-active: #FFFFFF;
+    --interaction-background: #1e61b8;
+    --interaction-background-disabled: #101a3b;
+
+    --main-opacity-50: rgba(61, 114, 245, 0.05);
+    --main-opacity-100: rgba(61, 114, 245, 0.1);
+    --main-opacity-200: rgba(61, 114, 245, 0.2);
+    --main-opacity-300: rgba(61, 114, 245, 0.3);
+    --main-opacity-400: rgba(61, 114, 245, 0.4);
+    --main-opacity-500: rgba(61, 114, 245, 0.5);
+    --main-opacity-600: rgba(61, 114, 245, 0.6);
+    --main-opacity-700: rgba(61, 114, 245, 0.7);
+    --main-opacity-800: rgba(61, 114, 245, 0.8);
+    --main-opacity-900: rgba(61, 114, 245, 0.9);
+
+    --white-opacity-20: rgba(255, 255, 255, 0.02);
+    --white-opacity-50: rgba(255, 255, 255, 0.05);
+    --white-opacity-100: rgba(255, 255, 255, 0.1);
+    --white-opacity-200: rgba(255, 255, 255, 0.2);
+    --white-opacity-300: rgba(255, 255, 255, 0.3);
+    --white-opacity-400: rgba(255, 255, 255, 0.4);
+    --white-opacity-500: rgba(255, 255, 255, 0.5);
+    --white-opacity-600: rgba(255, 255, 255, 0.6);
+    --white-opacity-700: rgba(255, 255, 255, 0.7);
+    --white-opacity-800: rgba(255, 255, 255, 0.8);
+    --white-opacity-900: rgba(255, 255, 255, 1);
+
+    --grey-5: #FFFFFF;
+    --grey-100: #FFFFFF;
+    --grey-200: #CBD3DC;
+    --grey-300: #ADB9C8;
+    --grey-400: #8E9FB3;
+    --grey-500: #70869F;
+    --grey-600: #586C83;
+    --grey-700: #445365;
+    --grey-800: #2F3A46;
+    --grey-900: #1A2027;
+
+    --kv-field: rgba(61, 114, 245, 0.15);
+    --kv-field-border: rgba(61, 114, 245, 0.30);
+
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+}
+
+.bg-background-solid {
+    background-image: none !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.light:after {
+    display: none;
+}
+
+.bg-background-solid > header {
+    background-color: rgba(0, 0, 0, 0.094);
+}
+
+.bg-main-500.text-main-950 {
+    color: #FFFFFF;
+}
+
+.bg-background-solid textarea {
+    background-color: var(--kv-field);
+    border-color: var(--kv-field-border);
+    border-radius: 5px;
+}
+
+.bg-background-solid textarea:focus {
+    border-color: var(--main-500);
+}
+
+.bg-background-solid textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.bg-background-solid button.bg-white\/10 {
+    background-color: var(--kv-field);
+    border: 1px solid var(--kv-field-border);
+    min-height: 40px;
+    padding: 8px 12px;
+}
+
+.bg-background-solid .grid.grid-cols-2 {
+    align-items: stretch;
+    grid-auto-rows: 1fr;
+}
